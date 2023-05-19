@@ -1,40 +1,137 @@
-
-
-
-html {
+html{
     font-family: 'Inter', sans-serif;
     font-size: 16px;
 }
-
 p {
     margin-right: 2em;
-    font-weight: bold;
-    font-size: 0.9em;
-    font-weight: 500;
 }
 
+body {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-y: auto;
+    width: 100%;
+}
 button {
     background-color: white;
-    border-radius: 30px;
-    padding: 0px 1.5em;
-    height: 2.5em;
+    border-radius: 2em;
     border: 2px solid black;
-    font-size: 0.8em;
-    width: 8em;
+    padding: 0 1.2em;
+    height: 2.2em;
+    font-size: 1em;
+}
+#navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    background-color: white;
+    background-position: center;
+  }
+  
+  #navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  #navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-size: cover;
+    background-color: white;
+  }
+  
+  #navbar-right p {
+    margin-right: 20px;
+  }
+
+#content {
+    background-color: white;
+    padding: 100px;
 }
 
-div#navbar-left img {
-    width: 8em;
+#text-content {
+    text-align: center;
+    align-items: center;
+    font-size: 3em;
 }
 
-@media (width >= 2500px) {
-    html {
-        font-size: 28px;
-    }
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
-@media (width >= 3500px) {
-    html {
-        font-size: 32px;
-    }
+button:hover {
+    background-color:aqua ;
 }
+
+#impacto {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+.column1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 15px;
+}
+
+.column1 h2{
+    font-size: 40px;
+}
+
+.column2 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin: 15px;
+}
+
+.column2 span {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#contact-form {
+    width: 100%;
+    background-color:cornflowerblue;
+    padding-top: 90px;
+    bottom: 0%;
+    height: 500px;
+    align-items: center;
+    justify-content:center ;
+}
+
+form {
+    margin-top: 100px;
+}
+
+textarea {
+    margin-top: 30px;
+}
+footer {
+    background-repeat: no-repeat;
+    height: 120px;
+    padding-top: 50px;
+    background-color: black;
+    background-position:initial;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 12px;
+    color: white;
+}
+

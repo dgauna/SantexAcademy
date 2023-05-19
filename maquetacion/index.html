@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body style="margin: 0;">
-    <div id="navbar" style="display: flex; border-bottom: 1px solid gray; padding: 14px 800px; justify-content: space-between;">
+    <div id="navbar">
         <div id="navbar-left">
-            <img src="technology-with-purpose.svg">
+          <img src="technology-with-purpose.svg" alt="Logo">
         </div>
-        <div id="navbar-right" style="display: flex; align-items: center;">
+        <div id="navbar-right">
             <p>Nosotros</p>
             <p>Programas</p>
             <p>Capacitaciones</p>
@@ -25,23 +25,59 @@
             <button>Sumate +</button>
         </div>
     </div>
-    <div id="contact-form">
-        <form style="margin: 0 300px;" action="">
-            <div>
-                <input type="text" placeholder="Nombre y Apellido">
-                <input type="email" placeholder="Email">
-                <select name="" id="">
-                    <option value="">Programas</option>
-                    <option value="">Capacitaciones</option>
-                </select>
+
+        <div id="content">
+            <p id="text-content">
+                Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.
+            </p>
+            <div id="buttons">
+                <button>Contacto</button>
+                <button>Sumate</button>
             </div>
-            <div>
-                <textarea name="" cols="30" rows="10"></textarea>
+        </div>
+
+        <div id="impacto">
+            <div class="column1">
+                <h2>·Impacto</h2>
+                <p id="parrafo-impacto">
+                    Buscamos construir alianzas y fortalecer vínculos para 
+                    generar una transformación real en la comunidad. 
+                    Trabajamos para acercar la tecnología innovadora y 
+                    disruptiva del sector privado hacia el sector social.
+                </p>
             </div>
-            <div>
-                <button>Enviar</button>
+            <div class="column2">
+                <span>58</span>
+                <p>Localidades</p>
+                <span>+50</span>
+                <p>Mentores</p>
+                <span>301</span>
+                <p>Participantes</p>
             </div>
-        </form>
-    </div>
+        </div>
+
+        <div id="contact-form">
+            <form style="margin: 0 300px;" action="">
+                <div>
+                    <input type="text" placeholder="Nombre y Apellido">
+                    <input type="email" placeholder="Email">
+                    <select name="" id="">
+                        <option value="">Programas</option>
+                        <option value="">Capacitaciones</option>
+                    </select>
+                </div>
+                <div>
+                    <textarea name="" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <button>Enviar</button>
+                </div>
+            </form>
+        </div>
+
 </body>
+<footer>
+    <img src="https://technologywithpurpose.org/wp-content/uploads/2022/10/technology-with-purpose-white.svg" alt="" srcset="">
+    <p>Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social.</p>
+</footer>
 </html>
